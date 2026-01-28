@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 Main application entry point for the Weather App
 """
@@ -82,4 +83,17 @@ def main():
 
 
 if __name__ == '__main__':
+=======
+
+import tkinter as tk
+from src.ui.window_setup import WeatherApp
+from src.ui.weather_controller import WeatherController
+
+def main():
+    root = tk.Tk()
+    app = WeatherApp(root)
+    root.mainloop()
+
+if __name__ == "__main__":
+>>>>>>> e045f3c (Update main entry point)
     main()

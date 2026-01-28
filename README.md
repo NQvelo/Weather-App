@@ -18,7 +18,9 @@ This Weather Python GUI (Graphical User Interface) App provides a convenient way
 
 ## Installation
 
-To install the Weather Python GUI App, follow these steps:
+For **detailed installation on Windows and macOS** (from source or built .exe/.app), plus **full technical specifications**, see **[DOCUMENTATION.md](DOCUMENTATION.md)**.
+
+Quick start from source:
 
 1. Clone the repository to your local machine:
 
@@ -27,31 +29,21 @@ To install the Weather Python GUI App, follow these steps:
         git clone https://github.com/NQvelo/Weather-App.git
    ``` 
 
-2.Navigate to the project directory:
+2. Navigate to the project directory:
     
     ```
         cd Weather-App
     ```    
 
-3.Install the required module:
-    
-    ```
-        pip install random 
-    ```
+3. Install dependencies:
 
     ```
-        pip install tkinter
-    ```
-
-    ```
-        pip install request
-    ```
-
-    ```
-        pip install json
+        python3 -m venv .venv
+        . .venv/bin/activate
+        pip install -r requirements.txt
     ```
     
-4.Run the application:
+4. Run the application:
     
     ```
         python main.py
